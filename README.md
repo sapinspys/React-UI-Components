@@ -48,6 +48,8 @@
   - Create a `<CardContent />` component that displays the card copy provided.
   - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
 
+  DONE!
+
 #### Project 1 Stretch Problems
 
 - Create a `<Footer/>` component that pulls in the icons and displays them properly.
