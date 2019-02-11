@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+
+header {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+header img {
+    padding-top: 16px;
+    padding-right: 10px;
+}
+
+/* .header-content {
+    width: 80%;
+} */
+
+.handleTime {
+   color: gray; 
+   font-size: .9rem;
+}

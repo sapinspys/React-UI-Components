@@ -7,11 +7,13 @@ import HeaderTitle from "./HeaderTitle";
 
 function HeaderContainer() {
     return (
-        <div className='header-container'>
+        <header>
             <ImageThumbnail />
-            <HeaderTitle />
-            <HeaderContent />
-        </div>
+            <div className="header-content">
+                <HeaderTitle />
+                <HeaderContent />
+            </div>
+        </header>
     );
 };
 
