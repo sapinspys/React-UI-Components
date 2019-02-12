@@ -1,12 +1,13 @@
 .action-btn {
     width: 75%;
-    border: 1px solid lightgray;
+    border: 0.5px solid lightgray;
     height: 62px;
     font-size: 2rem;
+    background: white;
 }
 
 .number-btn, .function-btn {
-    border: 1px solid lightgray;
+    border: 0.5px solid lightgray;
     width: 25%;
     height: 62px;
 }
@@ -14,10 +15,13 @@
 .number-btn {
     font-size: 2rem;
     font-weight: 700; 
+    background:white;
+    border-collapse: unset;
 }
 
 .function-btn {
-    background: red;
+    background: brown;
     color: white;
     font-size: 2.5rem;
+    border-collapse: collapse;
 }
