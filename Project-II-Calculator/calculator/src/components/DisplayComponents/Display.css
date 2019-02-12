@@ -4,4 +4,9 @@
     height: 83px;
     background: black;
     color: white;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    font-size: 3.5rem;
+    padding-right: 10px;
 }

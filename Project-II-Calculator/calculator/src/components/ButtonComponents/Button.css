@@ -2,6 +2,7 @@
     width: 75%;
     border: 1px solid lightgray;
     height: 62px;
+    font-size: 2rem;
 }
 
 .number-btn, .function-btn {
@@ -10,11 +11,13 @@
     height: 62px;
 }
 
-/* .number-btn {
-    font-weight: 
-} */
+.number-btn {
+    font-size: 2rem;
+    font-weight: 700; 
+}
 
 .function-btn {
     background: red;
     color: white;
+    font-size: 2.5rem;
 }
