@@ -7,10 +7,9 @@ import './Display.css';
 
 class CalculatorDisplay extends React.Component {
     render () {
-        const string = this.props.data.join('');
         return <div 
             className='calc-display'>
-            {string}
+            {Array.from(this.props.data).join('')}
         </div>
     }
 }
