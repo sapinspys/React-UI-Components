@@ -1,0 +1,7 @@
+.calc-display {
+    width: 100%;
+    border: 1px solid lightgray;
+    height: 83px;
+    background: black;
+    color: white;
+}
