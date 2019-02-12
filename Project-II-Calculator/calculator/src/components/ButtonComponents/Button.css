@@ -23,3 +23,12 @@
     color: white;
     font-size: 2.5rem;
 }
+
+.number-btn:hover, .function-btn:hover, .action-btn:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 5px black;
+}
+
+.number-btn, .function-btn, .action-btn {
+    transition: 0.2s;
+}
