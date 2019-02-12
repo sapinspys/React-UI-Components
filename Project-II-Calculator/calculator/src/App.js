@@ -54,7 +54,7 @@ class App extends React.Component {
   calculateOperations = () => {
     let result = Array.from(this.state.operations).join('')
     if (result) {
-      result = this.round(eval(result),5)
+      result = this.round(eval(result),2)
       result = String(result)
       this.setState({
         operations: [result],
