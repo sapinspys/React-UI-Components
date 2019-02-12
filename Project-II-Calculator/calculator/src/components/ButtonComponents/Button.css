@@ -1,0 +1,20 @@
+.action-btn {
+    width: 75%;
+    border: 1px solid lightgray;
+    height: 62px;
+}
+
+.number-btn, .function-btn {
+    border: 1px solid lightgray;
+    width: 25%;
+    height: 62px;
+}
+
+/* .number-btn {
+    font-weight: 
+} */
+
+.function-btn {
+    background: red;
+    color: white;
+}

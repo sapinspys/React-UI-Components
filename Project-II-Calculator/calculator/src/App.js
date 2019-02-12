@@ -21,24 +21,23 @@ const App = () => {
       </p>
 
       <div className='calculator'>
-        <CalculatorDisplay />
-        <ActionButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <ActionButton />
-        <NumberButton />
+        <CalculatorDisplay text='0'/>
+        <ActionButton text='clear'/>
+        <NumberButton text='/' buttonStyle='function-btn'/>
+        <NumberButton text='7' buttonStyle='number-btn'/>
+        <NumberButton text='8' buttonStyle='number-btn'/>
+        <NumberButton text='9' buttonStyle='number-btn'/>
+        <NumberButton text='x' buttonStyle='function-btn'/>
+        <NumberButton text='4' buttonStyle='number-btn'/>
+        <NumberButton text='5' buttonStyle='number-btn'/>
+        <NumberButton text='6' buttonStyle='number-btn'/>
+        <NumberButton text='-' buttonStyle='function-btn'/>
+        <NumberButton text='1' buttonStyle='number-btn'/>
+        <NumberButton text='2' buttonStyle='number-btn'/>
+        <NumberButton text='3' buttonStyle='number-btn'/>
+        <NumberButton text='+' buttonStyle='function-btn'/>
+        <ActionButton text='0'/>
+        <NumberButton text='=' buttonStyle='function-btn'/>
       </div>
     </div>
   );
