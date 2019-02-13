@@ -1,0 +1,34 @@
+.action-btn {
+    width: 75%;
+    border: 0.5px solid gray;
+    height: 62px;
+    font-size: 2rem;
+    background: white;
+}
+
+.number-btn, .function-btn {
+    border: 0.5px solid gray;
+    width: 25%;
+    height: 62px;
+}
+
+.number-btn {
+    font-size: 2rem;
+    font-weight: 700; 
+    background:white;
+}
+
+.function-btn {
+    background: brown;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.number-btn:hover, .function-btn:hover, .action-btn:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 5px black;
+}
+
+.number-btn, .function-btn, .action-btn {
+    transition: 0.2s;
+}

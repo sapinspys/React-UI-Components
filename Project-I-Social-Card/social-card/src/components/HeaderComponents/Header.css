@@ -1,1 +1,27 @@
 /* All styles for your header Components live here */
+
+header {
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+header img {
+    padding-top: 9px;
+    padding-right: 10px;
+}
+
+/* .header-content {
+    width: 80%;
+} */
+
+.soft {
+   color: gray; 
+   font-size: .9rem;
+}
+
+.header-content p {
+    margin: 8px 0;
+}

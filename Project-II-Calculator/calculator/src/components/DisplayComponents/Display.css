@@ -1,0 +1,14 @@
+.calc-display {
+    width: 100%;
+    border: 0.5px solid gray;
+    height: 83px;
+    background: black;
+    color: white;
+    text-shadow: 0 0 20px greenyellow;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    font-size: 3.5rem;
+    padding-right: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
