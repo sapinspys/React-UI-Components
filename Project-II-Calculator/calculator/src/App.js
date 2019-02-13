@@ -32,6 +32,9 @@ class App extends React.Component {
           <ActionButton onClick={this.handleClick} text='0' value='0'/>
           <NumberButton onClick={this.handleClick} text='=' value='equal' buttonStyle='function-btn'/>
         </div>
+        <div className='credits'>
+          <h1>Designed by Guillermo Arria-Devoe</h1>
+        </div>
       </div>  
     )
   }
@@ -56,7 +59,7 @@ class App extends React.Component {
   calculateOperations = () => {
     let result = Array.from(this.state.operations).join('')
     if (result) {
-      result = this.round(eval(result),2)
+      result = this.round(eval(result),3)
       result = String(result)
       this.setState({
         operations: [result],
